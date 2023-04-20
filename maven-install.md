@@ -37,3 +37,6 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
 8. Create the Settings file inside of the `~/.m2` directory
     `cd ~/.m2/`
     `mv demo/settings.xml ~/.m2/`
+    
+9 Install tree command to make your job easy
+   sudo yum install tree -y
