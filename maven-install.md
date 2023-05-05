@@ -20,12 +20,13 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
 4. Enter the following to set Java 8 as the default runtime on your EC2 instance.
 
     `sudo /usr/sbin/alternatives --config java`
-- When prompted, enter the number for Java 8.
+- When prompted, enter the number `1` for Java 8.
 
 5. Enter the following to set Java 8 as the default compiler on your EC2 instance.
 
     `sudo /usr/sbin/alternatives --config javac`
-- When prompted, enter the number for Java 8.
+- When prompted, enter the number `2` for Javac maven compiler.
+- Make sure to review this config if `mvn compile` breaks
 
 6. Verify your maven version
     `mvn -v`
