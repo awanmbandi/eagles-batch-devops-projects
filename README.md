@@ -20,7 +20,7 @@
     - Instance type: t2.medium
     - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/awanmbandi/eagles-batch-devops-projects/blob/maven-nexus-sonarqube-jenkins-install/jenkins-install.sh
+    - User data (Copy the following user data): https://github.com/showmikb/eagles-batch-devops-projects/blob/maven-nexus-sonarqube-jenkins-install/jenkins-install.sh 
     - Launch Instance
 
 3) SonarQube
